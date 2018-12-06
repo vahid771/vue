@@ -13,7 +13,7 @@ export default {
   data () {
     return {
       baseUrl: process.env.BASE_URL,
-	  image: 'a.jpg'
+      image: 'a.jpg'
     }
   },
   name: 'home',
