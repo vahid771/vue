@@ -73,7 +73,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import '@/../node_modules/bulma/sass/utilities/_all.sass';
+@import '@/../node_modules/bulma/sass/components/media.sass';
+@import '@/../node_modules/bulma/sass/elements/icon.sass';
+@import '@/../node_modules/bulma/sass/elements/image.sass';
+
 .dividing-header {
   margin-top: 1em;
   margin-bottom: 2em;
